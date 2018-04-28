@@ -1,6 +1,8 @@
 [
   {
+    "remote": "github",
     "repository": "bthorn79/android_kernel_moto_shamu",
     "target_path": "kernel/moto/shamu"
+    "revision": "aokp-o"
   }
 ]
