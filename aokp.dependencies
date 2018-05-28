@@ -4,5 +4,11 @@
     "repository": "bthorn79/android_kernel_moto_shamu",
     "target_path": "kernel/moto/shamu"
     "revision": "aokp-o"
+  },
+  {
+    "remote": "github",
+    "repository": "TheMuppets/proprietary_vendor_motorola",
+    "target_path": "vendor/motorola"
+    "revision": "linage-15.1"
   }
 ]
