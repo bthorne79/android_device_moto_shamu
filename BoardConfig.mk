@@ -93,13 +93,14 @@ BOARD_USERDATAIMAGE_PARTITION_SIZE := 25253773312
 BOARD_CACHEIMAGE_PARTITION_SIZE := 268435456
 BOARD_CACHEIMAGE_FILE_SYSTEM_TYPE := ext4
 BOARD_FLASH_BLOCK_SIZE := 131072
+TARGET_USES_MKE2FS := true
 
 # Charger
 BOARD_CHARGER_ENABLE_SUSPEND := true
 BOARD_HAL_STATIC_LIBRARIES := libhealthd.shamu
 BACKLIGHT_PATH := /sys/class/leds/lcd-backlight/brightness
 
-TARGET_RECOVERY_FSTAB = device/moto/shamu/fstab.shamu
+TARGET_RECOVERY_FSTAB = device/moto/shamu/rootdir/etc/fstab.shamu
 # Ensure f2fstools are built
 TARGET_USERIMAGES_USE_F2FS := true
 
